@@ -1,0 +1,56 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-attachment:fixed ;
+}
+
+h1{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  
+}
+
+hr{
+  background-color: orangered;
+  height: 3px;
+  width: 80px;  
+  color: rgb(226, 111, 69);
+}
+
+.btn-primary{
+  background-color: orangered;
+  border-color: orangered;
+}
+
+.buffer{
+  height: 10rem;
+}
+
+.btn-lg{
+  background-color: orangered;
+  border-radius: 300px;
+  border: none;
+  font-size: 1.1em;
+  font-weight: bold;  
+  padding: 0.9rem 1.8rem;
+  transition: all;
+  
+
+}
+
+.btn-lg:hover{
+  transform: scale(1.1);
+  background-color: rgb(218, 77, 26);
+  border: 2px solid black;
+}
